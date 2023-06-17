@@ -1,0 +1,51 @@
+body {
+    background-image: url("images/Artboard\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-image: url("images/nss.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 10px 10px 25px black;
+    width: 79%;
+    height: 680px;
+    
+    margin: 90px 90px;
+    display: flex;
+    
+}
+.cont{
+    height: 70px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+.circls{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(63, 63, 63);
+    
+}
+.logo {
+    
+}
+nav {
+    width: 600px;
+    height: 70px;
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
